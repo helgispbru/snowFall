@@ -11,8 +11,6 @@
  * @internal    @modx_category Content
  * @internal    @properties
  * @internal    @installset base
- * @reportissues
- * @documentation
  * @author      plugin author Grinyaha
  * @lastupdate  02/12/2025
  */
