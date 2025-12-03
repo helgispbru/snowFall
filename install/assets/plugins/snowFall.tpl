@@ -14,15 +14,15 @@
  * @lastupdate  03/12/2025
  */
 
-$src = '<script type="javascript">
+$src = '<script type="text/javascript">
 // Количество снежинок
 const snowMax = ' . $snow_max . ';
 
 // Цвета снежинок
-const snowColor = ["#' . implode('", "#', $snow_color) . '"];
+const snowColor = ["#' . implode('", "#', array_map('trim', explode(',', $snow_color))) . '"];
 
 // Шрифты
-const snowType = ["' . implode('", "', $wno_type) . '"];
+const snowType = ["' . implode('", "', explode(',', $snow_type)) . '"];
 
 // Символ
 const snowLetter = "' . $snow_letter . '";
