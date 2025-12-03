@@ -1,31 +1,4 @@
-(function() {
-    // --- КОНФИГУРАЦИЯ ---
-
-    // Количество снежинок
-    const snowMax = 60;
-
-    // Цвета снежинок
-    const snowColor = ["#b9dff5", "#7fc7ff", "#7fb0ff", "#7fc7ff", "#b9dff5"];
-
-    // Шрифты
-    const snowType = ["Times", "Arial", "Verdana"];
-
-    // Символ
-    const snowLetter = "❅";
-
-    // Скорость падения (теперь 0.5 - это очень медленно, 1 - нормально)
-    // Я поставил 0.6 для плавного падения
-    const sinkSpeed = 0.6;
-
-    // Размеры
-    const snowMaxSize = 22;
-    const snowMinSize = 8;
-
-    // Зоны: 1 - везде, 2 - слева, 3 - центр, 4 - справа
-    const snowingZone = 1;
-
-    // --- КОНЕЦ КОНФИГУРАЦИИ ---
-
+(function () {
     let snowflakes = [];
     let browserWidth;
     let browserHeight;
